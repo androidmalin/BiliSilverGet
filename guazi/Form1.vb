@@ -94,7 +94,7 @@ Public Class Form1
 
         'Dim bool As Boolean = obj("data").Value(Of Boolean)("bool")
 
-
+        CookieDebugger.Show()
     End Sub
 
     Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged

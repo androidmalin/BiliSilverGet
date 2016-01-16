@@ -73,16 +73,22 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\VBUtil\JsonParser.vb">
-      <Link>JsonParser.vb</Link>
+    <Compile Include="..\VBUtil\VBUtil\CookieDebugger.Designer.vb">
+      <Link>CookieDebugger.Designer.vb</Link>
+      <DependentUpon>CookieDebugger.vb</DependentUpon>
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="..\VBUtil\NetUtils.vb">
+    <Compile Include="..\VBUtil\VBUtil\CookieDebugger.vb">
+      <Link>CookieDebugger.vb</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\VBUtil\VBUtil\NetUtils.vb">
       <Link>NetUtils.vb</Link>
     </Compile>
-    <Compile Include="..\VBUtil\test.vb">
+    <Compile Include="..\VBUtil\VBUtil\test.vb">
       <Link>test.vb</Link>
     </Compile>
-    <Compile Include="..\VBUtil\utils.vb">
+    <Compile Include="..\VBUtil\VBUtil\utils.vb">
       <Link>utils.vb</Link>
     </Compile>
     <Compile Include="Form1.Designer.vb">
@@ -95,7 +101,7 @@
     <Compile Include="frmLogin.Designer.vb">
       <DependentUpon>frmLogin.vb</DependentUpon>
       <SubType>Form</SubType>
-    </Compile>	
+    </Compile>
     <Compile Include="frmLogin.vb">
       <SubType>Form</SubType>
     </Compile>

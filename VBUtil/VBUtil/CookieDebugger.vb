@@ -26,7 +26,7 @@ Public Class CookieDebugger
 
 
         For Each pathList As Object In table.Values
-            Dim lstCookieCol As SortedList = pathList.GetType().InvokeMember("m_list", Reflection.BindingFlags.NonPublic Or Reflection.BindingFlags.GetField Or Reflection.BindingFlags.Instance, Nothing, Utils.NetUtils.DefaultCookieContainer, New Object() {})
+            Dim lstCookieCol As SortedList = pathList.GetType().InvokeMember("m_list", Reflection.BindingFlags.NonPublic Or Reflection.BindingFlags.GetField Or Reflection.BindingFlags.Instance, Nothing, pathList, New Object() {})
             For Each cc As CookieCollection In lstCookieCol.Values
                 For Each c As Cookie In cc
                     Dim lvi As New ListViewItem(c.Domain)
@@ -37,6 +37,7 @@ Public Class CookieDebugger
                     lvi.SubItems.Add(c.HttpOnly)
                     lvi.SubItems.Add(c.Discard)
 
+                    ListView1.Items.Add(lvi)
                 Next
             Next
         Next

@@ -29,6 +29,7 @@ Version 1.0, January 2016
 And changing it is allowed.
 
 **TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION**
+<br/>
 0. You can copy, modify and distribute all the code, but making a profit is not allowed.
 <!-- TEST FOR HTML CODE -->
 <p align="right">

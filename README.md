@@ -17,6 +17,7 @@ Project 2015 最后一期项目
 - 本搜刮机使用的是手机版的API，*有`信仰`加成*，但是无法获得投票券
 - appkey和secretkey是从[别处](https://github.com/cnbeining/bilibili-grab-silver/blob/master/autograb.py)搜刮到的
 - b站登录接口是自己抓包的，想要了解更多，请见`登录说明`
+- 在使用过程中请勿围观b站直播，否则会有bug *下个版本看心情修复了*
 
 ### License
 
@@ -28,8 +29,9 @@ Version 1.0, January 2016
 And changing it is allowed.
 
 **TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION**
-<br/>
 0. You can copy, modify and distribute all the code, but making a profit is not allowed.
-<br/><br/>
+<!-- TEST FOR HTML CODE -->
+<p align="right">
 Project 2015<br/>
 Pandasxd
+</p>
